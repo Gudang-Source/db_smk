@@ -1,6 +1,6 @@
 <div class="footer">
 	<div class="font-c">
-		&copy; 2019 - @TheSkinnyRat
+		<?php echo base64_decode("JmNvcHk7IDIwMTkgLSBAVGhlU2tpbm55UmF0IC8gQ3JlYXRlZCBBbmQgRGV2ZWxvcGVkIEJ5IDxhIHN0eWxlPSdjb2xvcjogIzMxNjRkNTsnIGhyZWY9J2h0dHBzOi8vaW5zdGFncmFtLmNvbS90aGUuc2tpbm55LnJhdCcgdGFyZ2V0PSdfYmxhbmsnPkBUaGUuU2tpbm55LlJhdDwvYT4gLyBTdXBwb3J0aW5nIFdlYnNpdGU6IDxhIHN0eWxlPSdjb2xvcjogIzMxNjRkNTsnIGhyZWY9J2h0dHBzOi8vc2Nob29sLW1hdGUudGsnIHRhcmdldD0nX2JsYW5rJz5TY2hvb2wtTWF0ZS50azwvYT4gLCA8YSBzdHlsZT0nY29sb3I6ICMzMTY0ZDU7JyBocmVmPSdodHRwczovL3NhcnByYXMudGsnIHRhcmdldD0nX2JsYW5rJz5TYXJwcmFzLnRrPC9hPg==") ?>
 	</div>
 </div>
 </body>

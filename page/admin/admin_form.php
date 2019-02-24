@@ -24,7 +24,7 @@ USERNAME      : <input type="text" name="username" value="<?php if(isset($_POST[
 PASSWORD      : <input type="password" name="password" value="<?php if(isset($_POST['edit'])) echo $data['password']; ?>" required><br>
 NAMA          : <input type="text" name="nama" value="<?php if(isset($_POST['edit'])) echo $data['nama']; ?>" required><br>
 			</pre>
-      <input type="hidden" name="id" value="<?php if(isset($_POST['edit'])) echo $data['id']; ?>">
+      <input type="hidden" name="id" value="<?php if(isset($_POST['edit'])) echo $data['id']; else echo '0'; ?>">
 			<button class="button button1" type="submit" name="<?php if(isset($_POST['edit'])) echo 'edit'; else echo 'tambah'; ?>">SIMPAN</button>
 			<button class="button button-info" type="reset">RESET</button>
 		</form>

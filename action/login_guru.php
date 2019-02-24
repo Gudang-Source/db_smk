@@ -14,7 +14,7 @@ if ($cek) {
     $_SESSION['tempat_lahir']= $row['tempat_lahir'];
     $_SESSION['tanggal_lahir']= $row['tanggal_lahir'];
     $_SESSION['email']= $row['email'];
-    $_SESSION['no_telp']= $row['no_telp'];
+    $_SESSION['no_tlp']= $row['no_tlp'];
     $_SESSION['jenis_kelamin']= $row['jenis_kelamin'];
 
     $_SESSION['login']= 'guru';

@@ -22,7 +22,7 @@ if(isset($_POST['edit'])){
 ID KELAS      : <input type="text" value="AUTO" disabled><br>
 NAMA KELAS    : <input type="text" name="kelas" value="<?php if(isset($_POST['edit'])) echo $data['kelas']; ?>" required><br>
 			</pre>
-      <input type="hidden" name="id_kelas" value="<?php if(isset($_POST['edit'])) echo $data['id_kelas']; ?>">
+      <input type="hidden" name="id_kelas" value="<?php if(isset($_POST['edit'])) echo $data['id_kelas']; else echo '0'; ?>">
 			<button class="button button1" type="submit" name="<?php if(isset($_POST['edit'])) echo 'edit'; else echo 'tambah'; ?>">SIMPAN</button>
 			<button class="button button-info" type="reset">RESET</button>
 		</form>

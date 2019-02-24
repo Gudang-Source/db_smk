@@ -33,7 +33,7 @@ NIALI UAS     : <input type="number" name="uas" value="<?php if(isset($_POST['ed
 			</pre>
       <input type="hidden" name="id_pengajar" value="<?php echo $id_pengajar ?>">
       <input type="hidden" name="nis" value="<?php echo $nis ?>">
-      <input type="hidden" name="id_nilai" value="<?php if(isset($_POST['edit'])) echo $data['id_nilai']; ?>">
+      <input type="hidden" name="id_nilai" value="<?php if(isset($_POST['edit'])) echo $data['id_nilai']; else echo '0'; ?>">
 			<button class="button button1" type="submit" name="<?php if(isset($_POST['edit'])) echo 'edit'; else echo 'tambah'; ?>">SIMPAN</button>
 			<button class="button button-info" type="reset">RESET</button>
 		</form>

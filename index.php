@@ -20,6 +20,8 @@
   <div class="menu">
     <a href="index.php"><button class="btnatas-success">HOME</button></a>
     <a href="nilai.php"><button class="btnatas-success">NILAI SISWA</button></a>
+    <a href="https://github.com/TheSkinnyRat/db_smk" target="_blank"><button class="btnatas-warning">SOURCE CODE / GITHUB</button></a>
+    <a href="https://db-smk.000webhostapp.com/" target="_blank"><button class="btnatas-warning">ONLINE WEBSITE</button></a>
   </div>
 
   <div class="sidebar">
@@ -103,7 +105,7 @@ Password : <input type="password" name="password" value="" required>
 
   <div class="footer">
     <div class="font">
-      &copy; 2019 - @TheSkinnyRat
+      <?php echo base64_decode("JmNvcHk7IDIwMTkgLSBAVGhlU2tpbm55UmF0IC8gQ3JlYXRlZCBBbmQgRGV2ZWxvcGVkIEJ5IDxhIHN0eWxlPSdjb2xvcjogIzMxNjRkNTsnIGhyZWY9J2h0dHBzOi8vaW5zdGFncmFtLmNvbS90aGUuc2tpbm55LnJhdCcgdGFyZ2V0PSdfYmxhbmsnPkBUaGUuU2tpbm55LlJhdDwvYT4gLyBTdXBwb3J0aW5nIFdlYnNpdGU6IDxhIHN0eWxlPSdjb2xvcjogIzMxNjRkNTsnIGhyZWY9J2h0dHBzOi8vc2Nob29sLW1hdGUudGsnIHRhcmdldD0nX2JsYW5rJz5TY2hvb2wtTWF0ZS50azwvYT4gLCA8YSBzdHlsZT0nY29sb3I6ICMzMTY0ZDU7JyBocmVmPSdodHRwczovL3NhcnByYXMudGsnIHRhcmdldD0nX2JsYW5rJz5TYXJwcmFzLnRrPC9hPg==") ?>
     </div>
   </div>
 
