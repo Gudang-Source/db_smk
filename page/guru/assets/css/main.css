@@ -1,0 +1,597 @@
+.judul{
+  text-align: center;
+  font-family: trebuchet ms;
+}
+
+.menuatas{
+	width: 100%;
+	height: 50px;
+	background: #017B17;
+	float: left;
+}
+/*BUTTON*/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*----------------------------------------------------------------------------------------*/
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-danger {
+    background-color: #cc282d;
+    color: white;
+    border: 2px solid #cc282d;
+
+}
+
+.button-danger:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-info {
+    background-color: #3578d2;
+    color: white;
+    border: 2px solid #3578d2;
+
+}
+
+.button-info:hover {
+    background-color: white;
+    color: black;
+}
+
+.btnatas-success {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnatas-success:hover {
+    background-color: #A3A3A3;
+    color: white;
+}
+
+.btnatas-info {
+    background-color: #3578d2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnatas-info:hover {
+    background-color: #A3A3A3;
+    color: white;
+}
+
+.btnatas-danger {
+    background-color: #cc282d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnatas-danger:hover {
+    background-color: #A3A3A3;
+    color: white;
+}
+
+.btnatas-warning {
+    background-color: #e6de2d;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnatas-warning:hover {
+    background-color: #A3A3A3;
+    color: white;
+}
+
+/*BUTTON END*/
+
+/*DROP DOWN*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #B50A0C;
+	color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*DROP DOWN END*/
+
+/* WARNING NOTIFIKASI -------------------------------------------------------------------------------------------------------------------------------------- */
+.notifbtn {
+    background-color: #e6de2d;
+    color: BLACK;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.notif {
+    position: relative;
+    display: inline-block;
+}
+
+.notif-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.notif-content .notif-main {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+		border: 2px solid lightgray;
+		min-width: 400px;
+}
+
+.notif-content .notif-main .a {
+    text-decoration: none;
+		color: black;
+}
+
+.notif-content .notif-main .notif-main-header{
+    font: 10pt 'trebuchet ms';
+}
+
+.notif-content .notif-main .notif-main-content {
+		border: 2px solid lightgray;
+		padding: 1%;
+		margin-bottom: 1%;
+		background: #dadfaf;
+		font: 10pt 'trebuchet ms';
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.notif-content .notif-main .notif-main-content:hover {
+		border: 2px solid lightgray;
+		padding: 1%;
+		margin-bottom: 1%;
+		background: #a4aa74;
+		font: 10pt 'trebuchet ms';
+}
+
+.notif-content .notif-main .notif-main-content-baca {
+		border: 2px solid lightgray;
+		padding: 1%;
+		margin-bottom: 1%;
+		background: #ffffff;
+		font: 10pt 'trebuchet ms';
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.notif-content .notif-main .notif-main-content-baca:hover {
+		border: 2px solid lightgray;
+		padding: 1%;
+		margin-bottom: 1%;
+		background: #dedede;
+		font: 10pt 'trebuchet ms';
+}
+
+.notif:hover .notif-content {
+    display: block;
+}
+
+.notif:hover .notifbtn {
+    background-color: #9f9a20;
+}
+
+/* WARNING END NOTIFIKASI -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.sidebar{
+	background: #0797A3;
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.sidebar .font{
+	padding: 20px;
+	border: 5px solid red;
+}
+.content1{
+	background: white;
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+.content1 .font{
+	padding: 20px;
+}
+.content{
+	background: white;
+	float: left;
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+.content .font{
+	padding: 20px;
+}
+.total_bayar{
+	color: #E30202;
+}
+.footer{
+  width: 100%;
+  background-color: #000000;
+  float: left;
+  color: #ffffff;
+}
+.font{
+  margin: 10px;
+  font: 13pt 'trebuchet ms';
+}
+.font-c{
+  margin: 10px;
+  font: 13pt 'trebuchet ms';
+	text-align: center;
+}
+
+
+/* WARNING ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.box{
+	width: 240px;
+	min-height: 200px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+	margin-bottom: 3%;
+}
+.box .produk-image{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box .produk-name a{
+	display: block;
+	font: 14pt tahoma;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+.box .produk-name a:hover{
+	color: green;
+	transition: color 1s;
+}
+.box .produk-harga{
+	font: 16pt 'trebuchet ms';
+	color: maroon;
+	text-align: center;
+}
+.box .produk-nav .btn{
+	font: 13pt 'trebuchet ms';
+	color: white;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: green;
+	text-align: center;
+	padding: 10px 0px;
+}
+.box .produk-nav .btn:hover{
+	font: 13pt 'trebuchet ms';
+	color: white;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #a3a3a3;
+	transition: background-color 1s;
+}
+/* stely untuk detail*/
+.produk-detail .produk-image{
+	display: block;
+	width: 500px;
+	height: 320px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px solid white;
+	box-shadow: 0px 0px 1px 1px grey;
+	float: left;
+	margin-bottom: 5%;
+}
+.produk-detail .produk-desc{
+	display: block;
+	width: 580px;
+	height: auto;
+	float: right;
+	padding: 10px;
+	float: left;
+	margin-left: 3%;
+}
+.produk-detail .produk-desc .produk-name{
+	font: 16pt 'trebuchet MS';
+	color: #333;
+	display: block;
+	margin-bottom: 10px;
+}
+.produk-detail .produk-desc .deskripsi{
+	font: 11pt 'tahoma';
+	color: #333;
+	display: block;
+	margin-bottom: 10px;
+}
+.produk-detail .produk-desc .produk-nav{
+	display: block;
+}
+.produk-detail .produk-desc .produk-nav .produk-harga{
+	display: block;
+	float: left;
+	width: 50%;
+	font: 13pt 'trebuchet ms';
+	color: maroon;
+}
+.produk-detail .produk-desc .produk-nav form{
+	display: block;
+	float: right;
+	width: 50%;
+}
+.produk-detail .produk-desc .produk-nav form .form-control{
+	padding: 5px;
+}
+.produk-detail .produk-desc .produk-nav form .btn{
+	display: block;
+	padding: 5px 20px;
+	color: white;
+	background-color: maroon;
+	border: none;
+	margin-left: 10px;
+}
+.produk-detail .produk-desc .produk-nav form.inline-form .btn,
+.produk-detail .produk-desc .produk-nav form.inline-form .form-control{
+	float: left;
+}
+.container{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.font1-5{
+	font: 5pt 'trebuchet ms';
+}
+
+.font1-10{
+	font: 10pt 'trebuchet ms';
+}
+
+.font1-15{
+	font: 15pt 'trebuchet ms';
+}
+
+.font1-20{
+	font: 20pt 'trebuchet ms';
+}
+
+.font1-25{
+	font: 25pt 'trebuchet ms';
+}
+
+.font1-30{
+	font: 30pt 'trebuchet ms';
+}
+
+/* WARNING NOTIF START -------------------------------------------------------- */
+.notif-success{
+  background-color: #3fb41c;
+  padding: 5px;
+  color: #2b2b2b;
+}
+
+.notif-success-a{
+  background-color: #3fb41c;
+  padding: 5px;
+  color: #2b2b2b;
+  animation-name: ntf-success-anm;
+  animation-duration: 3s;
+}
+
+@keyframes ntf-success-anm {
+  from {background-color: white;}
+  to {background-color: #3fb41c;}
+}
+
+.notif-info{
+  background-color: #1c54b4;
+  padding: 5px;
+  color: #2b2b2b;
+}
+
+.notif-info-a{
+  background-color: #1c54b4;
+  padding: 5px;
+  color: #2b2b2b;
+  animation-name: ntf-info-anm;
+  animation-duration: 3s;
+}
+
+@keyframes ntf-info-anm {
+  from {background-color: white;}
+  to {background-color: #1c54b4;}
+}
+
+.notif-warning{
+  background-color: #aebd38;
+  padding: 5px;
+  color: #2b2b2b;
+}
+
+.notif-warning-a{
+  background-color: #aebd38;
+  padding: 5px;
+  color: #2b2b2b;
+  animation-name: ntf-warning-anm;
+  animation-duration: 3s;
+}
+
+@keyframes ntf-warning-anm {
+  from {background-color: white;}
+  to {background-color: #aebd38;}
+}
+
+.notif-danger{
+  background-color: #db3232;
+  color: #2b2b2b;
+  padding: 5px;
+}
+
+.notif-danger-a{
+  background-color: #db3232;
+  color: #2b2b2b;
+  padding: 5px;
+  animation-name: ntf-danger-anm;
+  animation-duration: 3s;
+}
+
+@keyframes ntf-danger-anm {
+  from {background-color: white;}
+  to {background-color: #db3232;}
+}
+/* WARNING NOTIF END ---------------------------------------------------------- */
